@@ -13,7 +13,7 @@ target/
 *.iws
 *.iml
 *.ipr
-
+javadoc
 ### Eclipse ###
 .apt_generated
 .classpath
