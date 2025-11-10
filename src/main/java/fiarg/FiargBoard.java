@@ -87,7 +87,6 @@ public class FiargBoard {
 
         int count = 1;
 
-        // Check forward direction
         int r = row + dx;
         int c = col + dy;
         while (r >= 0 && r < size && c >= 0 && c < size && board[r][c] == symbol) {
@@ -96,7 +95,6 @@ public class FiargBoard {
             c += dy;
         }
 
-        // Check backward direction
         r = row - dx;
         c = col - dy;
         while (r >= 0 && r < size && c >= 0 && c < size && board[r][c] == symbol) {
